@@ -67,6 +67,10 @@ function combine(input: string[]) {
     return arrOperations;
 }
 
+/*
+* Function that prints the sum of an array of numbers with an array of operations
+* The function is only called when the result of the sum is 11
+*/
 function printTheMath(arrNum: number[], arrOp: string[]): void {
     let formula: string = arrNum[0].toString();
     let arr: number[] = arrNum.slice(1, 5);
@@ -129,8 +133,6 @@ function doTheMath(arrNum: number[], arrOp: string[]): number {
     }
     return nums[0];
 }
-
-
 
 /*
 * Function that loops over all permutations and operations
